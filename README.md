@@ -2,11 +2,13 @@
 
 ## Overview
 
-This project is a backend payment transaction monitoring system designed to simulate core functionality commonly found in modern financial technology platforms.
+This project is a backend payment transaction monitoring system built using Python, Flask and SQLAlchemy to simulate functionality commonly used in modern fintech and payment platforms.
 
-The system processes payment transactions through REST API endpoints, stores transaction data in a SQL database, performs rule-based fraud detection checks, generates operational monitoring metrics, exports CSV reports, logs system activity and supports containerised deployment using Docker.
+The application processes payment transactions through REST API endpoints, stores transaction data in a SQLite database and performs rule-based fraud detection checks on suspicious activity such as high-value, failed and international transactions.
 
-The project was built to strengthen backend engineering, API development, database management, testing and deployment skills using technologies commonly used in enterprise software environments.
+Additional features include operational monitoring metrics, CSV report generation, structured logging, automated testing using Pytest and Docker containerisation for portable deployment.
+
+I built this project to strengthen my understanding of backend software engineering concepts including API development, databases, testing, monitoring and deployment workflows in a more realistic, real-world environment.
 
 ## Features
 
@@ -43,7 +45,7 @@ The project was built to strengthen backend engineering, API development, databa
 
 ### Operational Metrics Endpoint
 
-![Metrics Endpoint](screenshots/metrics-endpoint-response.png)
+![Metrics Endpoint](screenshots/updated-transaction-metrics.png)
 
 ---
 
