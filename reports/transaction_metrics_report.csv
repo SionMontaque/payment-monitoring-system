@@ -1,0 +1,9 @@
+Metric,Value
+total_transactions,1
+approved_transactions,1
+failed_transactions,0
+suspicious_transactions,0
+total_transaction_value,42.5
+average_transaction_value,42.5
+failure_rate_percent,0.0
+fraud_alert_rate_percent,0.0
